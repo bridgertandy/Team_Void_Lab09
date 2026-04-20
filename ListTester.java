@@ -228,9 +228,9 @@ public class ListTester {
 			
 		//2-element to 3-element
 			// Scenario: 17
-			testThreeElementList(AB_addToFrontC_CAB, "STRING_CAB", LIST_CAB, STRING_CAB);
+		testThreeElementList(AB_addToFrontC_CAB, "STRING_CAB", LIST_CAB, STRING_CAB);
 			// Scenario: 20 
-			testThreeElementList(AB_addAfterBC_ABC, "STRING_ABC", LIST_ABC, STRING_ABC);
+		testThreeElementList(AB_addAfterBC_ABC, "STRING_ABC", LIST_ABC, STRING_ABC);
 			// Scenario: 23
 
 			

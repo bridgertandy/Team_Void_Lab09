@@ -130,7 +130,7 @@ public class IUArrayList<E> implements IndexedUnsortedList<E> {
 		if (isEmpty()) throw new NoSuchElementException();
 
 		E result = list[rear-1];
-		list[rear] = null;
+		list[rear-1] = null;
 		rear--;
 		count--;
 
